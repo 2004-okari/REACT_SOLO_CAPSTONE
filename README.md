@@ -83,6 +83,12 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Documentation
+
+[Documentation link](https://www.loom.com/share/c36ddcd159c94058b73071bc9129aaf9?sid=06b530bf-4611-4b62-bf3b-b8d8db5bdf9d).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### 👤 Authors <a name="authors"></a>
 
 1. Okari Nyandika
