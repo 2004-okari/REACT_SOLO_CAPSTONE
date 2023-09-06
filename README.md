@@ -79,7 +79,7 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ### Deployment
 
-Will deploy the project using netlify.
+[Sites link](https://thriving-daifuku-067d8b.netlify.app/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
