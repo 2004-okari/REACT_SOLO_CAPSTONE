@@ -120,6 +120,7 @@ If you like this project you can star the repository to make it look better.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for giving me all the necessary knowledge i need to make this project.
+I would also like to thank Behance especially Nelson Sakwa for the great design. All the best!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
