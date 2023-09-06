@@ -16,9 +16,8 @@ function Teams() {
   if (!teams || !Array.isArray(teams)) {
     content = <p>Loading...</p>;
   } else {
-    const filteredTeams = teams.filter((team) =>
-      team.strTeam.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    const filteredTeams = teams
+      .filter((team) => team.strTeam.toLowerCase().includes(searchQuery.toLowerCase()));
 
     if (loading) {
       content = (
@@ -34,7 +33,7 @@ function Teams() {
       content = (
         <div className="box">
           <input
-            className='input-bar'
+            className="input-bar"
             type="text"
             placeholder="Search by team name"
             value={searchQuery}
