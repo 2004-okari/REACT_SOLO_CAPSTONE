@@ -24,8 +24,8 @@
   animation: shift 1s ease-in-out infinite alternate;
 }
 
-.glitch:before,
-.glitch:after {
+.glitch::before,
+.glitch::after {
   display: block;
   content: attr(data-glitch);
   position: absolute;
@@ -34,13 +34,13 @@
   opacity: 0.8;
 }
 
-.glitch:before {
+.glitch::before {
   animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
   color: #8b00ff;
   z-index: -1;
 }
 
-.glitch:after {
+.glitch::after {
   animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
   color: #00e571;
   z-index: -2;
@@ -73,7 +73,15 @@
 }
 
 @keyframes shift {
-  0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+  0%,
+  40%,
+  44%,
+  58%,
+  61%,
+  65%,
+  69%,
+  73%,
+  100% {
     transform: skewX(0deg);
   }
 
@@ -117,43 +125,51 @@
     text-align: center;
     margin-bottom: 6px;
   }
+
   .section-2 {
     .box {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+
       .box-2 {
         width: 49.2%;
         display: flex;
         flex-direction: column;
         margin: 1px;
         position: relative;
+
         &:nth-of-type(1) {
           width: 100%;
         }
+
         .cover-div {
           .image {
             border-top-left-radius: 6px;
             border-top-right-radius: 6px;
             width: 100%;
-            aspect-ratio: 1;
+            aspect-ratio: 1 / 1;
             object-fit: cover;
           }
         }
+
         .inner-div {
           position: absolute;
           z-index: 999;
           bottom: 10px;
           right: 10px;
           color: white;
+
           .text-1 {
             font-weight: 700;
             font-size: 20px;
           }
+
           .text-2 {
             text-align: end;
           }
         }
+
         .icon-div {
           position: absolute;
           top: 10px;
@@ -163,8 +179,10 @@
           border: 2px solid white;
           border-radius: 50%;
           cursor: pointer;
+
           .link {
             margin-left: 2px;
+
             .text-3 {
               padding: 3px;
               color: white;
