@@ -27,6 +27,10 @@ function Players() {
         <div className="content-div">
           <div className="image-div">
             <img className="image" src={team.strTeamBadge} alt={team.strTeam} />
+            <div className="name-div">
+              <p className="name">{team.strTeam}</p>
+              <p className="name">{team.intFormedYear}</p>
+            </div>
           </div>
           <div className="info-div">
             <div className="boxes">
