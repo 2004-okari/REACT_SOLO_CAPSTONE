@@ -48,7 +48,7 @@ function Teams() {
               <div className="inner-div">
                 <p className="text-1">{team.strTeam}</p>
                 <p className="text-2">
-                  {team.idLeague}
+                  {team.intLoved ? team.intLoved : 0}
                 </p>
               </div>
               <div className="icon-div">
