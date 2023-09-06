@@ -2,12 +2,8 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 export const fetchTeams = createAsyncThunk('teams/fetchTeams', async () => {
-  try {
-    const response = await axios.get('https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=English%20Premier%20League');
-    return response.data;
-  } catch (error) {
-    throw error;
-  }
+  const response = await axios.get('https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=English%20Premier%20League');
+  return response.data;
 });
 
 const initialState = {
