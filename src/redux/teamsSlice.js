@@ -7,7 +7,8 @@ export const fetchTeams = createAsyncThunk('teams/fetchTeams', async () => {
     console.log(response.data)
     return response.data;
   } catch (error) {
-    console.log('Erro getting teams:', error);
+    console.log('Error getting teams:', error);
+    throw error; // Re-throw the error to be caught by the rejected action
   }
 })
 
@@ -23,7 +24,9 @@ const teamsSlice = createSlice({
   reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchTeams.pending, (state) => state.loading = true)
+      .addCase(fetchTeams.pending, (state) => {
+        state.loading = true;
+      })
       .addCase(fetchTeams.fulfilled, (state, action) => {
         state.loading = false;
         state.teams = action.payload;
