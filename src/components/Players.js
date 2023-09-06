@@ -1,20 +1,14 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import React from 'react';
+import { useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
-import { fetchTeams } from '../redux/teamsSlice';
 import './more.css';
 
 function Players() {
-  const dispatch = useDispatch();
   const { teamId } = useParams();
 
   const teams = useSelector((state) => state.teams.teams.teams);
   const team = teams.find((team) => team.idTeam === teamId);
   console.log(team);
-
-  useEffect(() => {
-    dispatch(fetchTeams());
-  }, [dispatch]);
 
   let content;
 
