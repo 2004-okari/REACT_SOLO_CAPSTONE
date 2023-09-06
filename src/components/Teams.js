@@ -48,8 +48,7 @@ function Teams() {
               <div className="inner-div">
                 <p className="text-1">{team.strTeam}</p>
                 <p className="text-2">
-                  since
-                  {team.intFormedYear}
+                  {team.idLeague}
                 </p>
               </div>
               <div className="icon-div">

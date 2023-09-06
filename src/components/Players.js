@@ -29,7 +29,7 @@ function Players() {
             <img className="image" src={team.strTeamBadge} alt={team.strTeam} />
             <div className="name-div">
               <p className="name">{team.strTeam}</p>
-              <p className="name">{team.intFormedYear}</p>
+              <p className="name">{team.idLeague}</p>
             </div>
           </div>
           <div className="info-div">
