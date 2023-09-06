@@ -1,5 +1,5 @@
 .covered-div {
-  max-width: 900px;
+  max-width: 1300px;
   background-color: #146c94;
   margin: 0 auto;
 
@@ -24,11 +24,21 @@
       .image-div {
         width: 100%;
         margin: 18px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
         .image {
-          width: 96%;
+          width: 50%;
           height: 200px;
           object-fit: contain;
+        }
+
+        .name {
+          font-size: 32px;
+          font-weight: 700;
+          color: white;
         }
       }
 
