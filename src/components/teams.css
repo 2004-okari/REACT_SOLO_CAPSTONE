@@ -132,6 +132,18 @@
       flex-wrap: wrap;
       justify-content: space-between;
 
+      .input-bar {
+        width: 70%;
+        height: 32px;
+        border: none;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+        border-radius: 6px;
+        padding: 0 2px 2px 4px;
+        background-color: #f1f1f1;
+        outline: none;
+        margin: 10px auto;
+      }
+
       .box-2 {
         width: 49.2%;
         display: flex;
