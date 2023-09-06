@@ -1,6 +1,6 @@
 .covered-div {
   max-width: 900px;
-  background-color: red;
+  background-color: #146C94;
   margin: 0 auto;
 
   .team-div {
@@ -45,10 +45,11 @@
           align-items: center;
           width: 100%;
           height: 60px;
-          background-color: burlywood;
+          background-color: #146C94;
+          color: white;
 
-          &:nth-of-type(even) {
-            opacity: 0.5;
+          &:nth-of-type(odd) {
+            background-color: #4682A9;
           }
 
           .span-text {
@@ -56,6 +57,7 @@
             right: 10px;
             font-size: 18px;
             font-weight: 700;
+            color: #f1f1f1;
           }
         }
       }

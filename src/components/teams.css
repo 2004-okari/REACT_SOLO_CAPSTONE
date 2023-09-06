@@ -42,7 +42,7 @@
 
 .glitch::after {
   animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
-  color: #00e571;
+  color: #146C94;
   z-index: -2;
 }
 
@@ -118,7 +118,7 @@
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-  background-color: #00e571;
+  background-color: #146C94;
   padding: 6px;
 
   .header-text {
