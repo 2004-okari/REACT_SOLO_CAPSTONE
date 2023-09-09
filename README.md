@@ -79,7 +79,13 @@ Open the index.html file on the browser or use a VS code extension server to sta
 
 ### Deployment
 
-Will deploy the project using netlify.
+[Sites link](https://thriving-daifuku-067d8b.netlify.app/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Documentation
+
+[Documentation link](https://www.loom.com/share/c36ddcd159c94058b73071bc9129aaf9?sid=06b530bf-4611-4b62-bf3b-b8d8db5bdf9d).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,6 +120,7 @@ If you like this project you can star the repository to make it look better.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for giving me all the necessary knowledge i need to make this project.
+I would also like to thank Behance especially Nelson Sakwa for the great design. All the best!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

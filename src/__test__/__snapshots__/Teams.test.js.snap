@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Teams component works okay Teams renders correctly 1`] = `
+<div
+  className="section"
+>
+  <h1
+    className="header-text"
+  >
+    Premier League
+  </h1>
+  <div
+    className="section-2"
+  />
+</div>
+`;
